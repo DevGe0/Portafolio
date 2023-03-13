@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="Img/programador.png">
+    <!-- Iconos de fontawesome -->
+    <script src="https://kit.fontawesome.com/2fd447c697.js" crossorigin="anonymous"></script>
+    <!-- Fuentes de GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Mono&family=Sofia+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <title>Portafolio</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Css/estilos.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+    <div id="particles-js"></div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="Img/portafolio.png">Portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ir_inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ir_hb">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ir_proyects">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ir_contacto">Contacto</a>
+                    </li>
+                    <a class="btn-cv" download="Curriculum" href="CV 2023.pdf">
+                        <span id="span1"></span>
+                        <span id="span2"></span>
+                        <span id="span3"></span>
+                        <span id="span4"></span>
+                        Descargar CV
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- my-3 nos pone un margen arriba y abajo del eje y -->
+    <div class="container my-3">
+        <!-- animate__animated son animaciones css de Animate.css -->
+        <div class="section1 row align-items-center animate__animated animate__rubberBand" id="ir_inicio">
+            <article class="presentacion col-sm-12 col-md-6 col-lg-6 col-xl-6">
+			    <strong>Hola, Soy Geovanni Campuzano</strong>
+			    <h2 class="mb-4" id="typewriter"></h2>
+			    <p>Soy un joven de 24 años, apasionado por la tecnología, la programación, el diseño web, la ciberseguridad y todo lo que tenga relación con la innovación tecnológica.</p>
+		    </article>
+            <figure class="img-cv col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <img src="Img/photo-cv.png">
+                <p>Ingeniero en sistemas computacionales recien egresado de la Univerdad Cugs Cuauhtémoc en 2022.</p>
+            </figure>
+        </div>
+
+        <div class="section2 row align-items-center animate__animated animate__bounceInLeft" id="ir_hb">
+            <!-- col-sm-12 en dispositivos small, 6 en medianos, etc (maximo es 12), mb-3=margin-bottom -->
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="habilidades">
+                        <h2 class="subtitulo"><span>Habilidades</span></h2>
+                        <p>HTML</p>
+                        <div class="barra">
+                            <div class="progreso" style="--w:90%">90%</div>
+                        </div>      
+                </div>
+                <div class="habilidades">
+                    <p>CSS</p>
+                    <div class="barra">
+                        <div class="progreso" style="--w:80%">80%</div>
+                    </div>      
+                </div>
+                <div class="habilidades">
+                    <p>JAVASCRIPT</p>
+                    <div class="barra">
+                        <div class="progreso" style="--w:70%">70%</div>
+                    </div>      
+                </div>
+                <div class="habilidades">
+                    <p>BOOTSTRAP</p>
+                    <div class="barra">
+                        <div class="progreso" style="--w:70%">70%</div>
+                    </div>      
+                </div>
+                <div class="habilidades">
+                    <p>GIT</p>
+                    <div class="barra">
+                        <div class="progreso" style="--w:70%">70%</div>
+                    </div>      
+                </div>
+                <div class="habilidades">
+                    <p>PYTHON</p>
+                    <div class="barra">
+                        <div class="progreso" style="--w:70%">70%</div>
+                    </div>      
+                </div>
+                <div class="habilidades">
+                    <p>EXCEL</p>
+                    <div class="barra">
+                        <div class="progreso" style="--w:70%">70%</div>
+                    </div>      
+                </div>
+                <div class="habilidades">
+                    <p>LINUX</p>
+                    <div class="barra">
+                        <div class="progreso" style="--w:80%">80%</div>
+                    </div>      
+                </div>
+                <div class="habilidades">
+                    <p>WINDOWS</p>
+                    <div class="barra">
+                        <div class="progreso" style="--w:80%">80%</div>
+                    </div>      
+                </div>
+            </div>
+        </div>
+
+        <div class="section3 row animate__animated animate__bounceInRight" id="ir_proyects">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <h2 class="subtitulo"><span>Proyectos</span></h2>
+                    <div class="carousel-item active">
+                        <div class="paginas col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                            <figure>
+                                <img src="Img/fondoClima.jpg">
+                            </figure>
+                            <div class="texto1">
+                            <p>App del clima con la api de OpenWeather</p>
+                            <a target="_blank" href="Proyectos/App Clima/index.html">Ir al sitio</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                        <div class="paginas col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                            <figure>
+                                <img src="Img/pokemon.jpg">
+                            </figure>
+                            <div class="texto1">
+                            <p>PokeApp con la Api de Pokemon</p>
+                            <a target="_blank" href="Proyectos/Pokeapi/index.html">Ir al sitio</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                        <div class="paginas col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                            <figure>
+                                <img src="Img/logo-crud.jpg">
+                            </figure>
+                            <div class="texto1">
+                            <p>CRUD Local con Javascript</p>
+                            <a target="_blank" href="Proyectos/CRUD/index.html">Ir al sitio</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                        <div class="paginas col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                        <figure>
+                            <img src="Img/brochas.jpg">
+                        </figure>
+                        <div class="texto1">
+                        <p>Pagina web de ventas de maquillaje y articulos de belleza para mujeres.</p>
+                        <a target="_blank" href="Proyectos/Diamond/index.html">Ir al sitio</a>
+                        </div>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                        <div class="paginas col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                            <figure>
+                                <img src="Img/portada.jpg">
+                            </figure>
+                            <div class="texto1">
+                            <p>Pagina Web Informativa</p>
+                            <a target="_blank" href="Proyectos/CICAP/index.html">Ir al sitio</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                        <div class="paginas col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                            <figure>
+                                <img src="Img/plan.jpg">
+                            </figure>
+                            <div class="texto1">
+                            <p>Precios de suscripciones</p>
+                            <a target="_blank" href="Proyectos/Precios de suscripciones/index.html">Ir al sitio</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                    <div class="paginas col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                        <figure>
+                            <img src="Img/form.jpg">
+                        </figure>
+                        <div class="texto1">
+                        <p>Formulario Local</p>
+                        <a target="_blank" href="Proyectos/Formulario con js/index.html">Ir al sitio</a>
+                        </div>
+                    </div> 
+                    </div>
+                    <div class="carousel-item">
+                    <div class="paginas col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                        <figure>
+                            <img src="Img/formu.jpg">
+                        </figure>
+                        <div class="texto1">
+                        <p>Formulario Local De Registro</p>
+                        <a target="_blank" href="Proyectos/Formulario FB/index.html">Ir al sitio</a>
+                        </div>
+                    </div> 
+                    </div>
+                    <div class="carousel-item">
+                    <div class="paginas col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                        <figure>
+                            <img src="Img/ciudad.jpg">
+                        </figure>
+                        <div class="texto1">
+                        <p>Galeria de fotos personales o para compartir.</p>
+                        <a target="_blank" href="Proyectos/Galeria/index.html">Ir al sitio</a>
+                        </div>
+                    </div> 
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- py-3 = padding interno en el eje y my-4 = margen interno en el eje y -->
+            <footer id="ir_contacto">
+                <ul class="nav justify-content-center border-top pb-3 mb-3">
+                    <!-- con px-2 = padding en el eje x y text-muted para quitar el hipervinculo-->
+                    <li class="nav-item"><a href="https://www.linkedin.com/in/geocg" target="_blank" class="nav-link px-2 text-muted"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li class="nav-item"><a href="#!" onclick="Correo()" class="nav-link px-2 text-muted"><i class="fa-solid fa-envelope"></i></a></li>
+                    <li class="nav-item"><a href="https://api.whatsapp.com/send?phone=5551585990" target="_blank" class="nav-link px-2 text-muted"><i class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <!-- Custom JS -->
+    <script src="Js/main.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Particulas animadas -->
+    <script src="Js/particles.min.js"></script>
+    <script src="Js/particulas-activas.js"></script>
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="Img/icono.png">
+    <title>Formulario FB</title>
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Css -->
+    <link rel="stylesheet" href="Css/estilos.css">
+</head>
+<body>
+    <div class="container contenedor-form">
+        <form action="">
+            <div class="titulo-form">
+                <h2>Registrate</h2>
+                <p>Es rápido y fácil</p>
+            </div>
+
+            <div class="inputs">
+                <div class="name-apellido">
+                    <input type="text" class="form-control input-name" placeholder="Nombre" required>
+                    <input type="text" class="form-control input-apellido" placeholder="Apellido" required>
+                </div>
+                <input type="email" class="form-control input-correo" placeholder="Correo electrónico" required>
+                <input type="tel" class="form-control input-tel" placeholder="Número de celular" required>
+                <input type="password" class="form-control input-pass" placeholder="Contraseña" required>
+            </div>
+
+            <label class="form-label">Fecha de nacimiento</label>
+            <div class="inputs-fecha">
+                <select id="dias" class="form-select" required>
+                    <option selected disabled>Día</option>
+                </select>
+
+                <select id="meses" class="form-select" required>
+                    <option selected disabled>Mes</option>
+                </select>
+
+                <select id="años" class="form-select" required>
+                    <option selected disabled>Año</option>
+                </select>
+            </div>
+
+            <label class="form-label">Sexo</label>
+            <div class="inputs-sexo">
+                <div class="input-radio form-check form-check-inline">
+                    <label class="form-check-label">Hombre</label>
+                    <input class="form-check-input" name="sexo" type="radio" required>
+                </div>
+                <div class="input-radio form-check form-check-inline">
+                    <label class="form-check-label">Mujer</label>
+                    <input class="form-check-input" name="sexo" type="radio" required>
+                </div>
+            </div>
+
+            <div class="boton">
+                <button type="submit" class="btn btn-primary">Registrar</button>   
+            </div>
+        </form>
+    </div>
+
+</body>
+<script src="Js/main.js"></script>
+<!-- JQUERY -->
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+<!-- Bootstrap 5 -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>

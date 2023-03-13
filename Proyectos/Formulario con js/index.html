@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="Img/form-ico.png">
+    <!--- CSS --->
+    <link rel="stylesheet" href="Css/estilos.css">
+    <!--- Iconscout CSS --->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="container">
+        <header>Registro</header>
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Detalles Personales</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Nombre Completo</label>
+                            <input type="text" placeholder="Ingresa tu nombre" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Fecha de nacimiento</label>
+                            <input type="date" placeholder="Ingresa la fecha" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Correo</label>
+                            <input type="email" placeholder="Ingresa tu correo" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Número de celular</label>
+                            <input type="number" placeholder="Ingresa el número" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Genero</label>
+                            <select required>
+                                <option disabled selected>Selecciona tu genero</option>
+                                <option>Masculino</option>
+                                <option>Femenino</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Ocupación</label>
+                            <input type="text" placeholder="Ingresa tu ocupación" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details address">
+                    <span class="title">Detalles del domicilio</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Calle</label>
+                            <input type="text" placeholder="Ingresa la calle" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Número</label>
+                            <input type="number" placeholder="Ingresa el número" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Número interior</label>
+                            <input type="number" placeholder="Ingresa el número interior" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nacionalidad</label>
+                            <input type="text" placeholder="Ingresa tu nacionalidad" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Estado</label>
+                            <input type="text" placeholder="Ingresa tu estado" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Municipio</label>
+                            <input type="text" placeholder="Ingresa tu municipio" required>
+                        </div>
+                    </div>
+
+                    <button class="nextBtn">
+                        <span class="btnText">Siguiente</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div> 
+            </div>
+
+            <div class="form second">
+                <div class="details family">
+                    <span class="title">Detalles familiares</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Nombre del padre</label>
+                            <input type="text" placeholder="Ingresa el nombre" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nombre de la madre</label>
+                            <input type="text" placeholder="Ingresa el nombre" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Correo (opcional)</label>
+                            <input type="email" placeholder="Ingresa el correo">
+                        </div>
+                    </div>
+
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">Regresar</span>
+                        </div>
+                        
+                        <button class="sumbit">
+                            <span class="btnText">Enviar</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div> 
+            </div>
+        </form>
+    </div>
+    <script src="Js/main.js"></script>
+</body>
+</html>
