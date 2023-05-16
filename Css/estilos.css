@@ -1,0 +1,357 @@
+body {
+	/*background: linear-gradient(to right, rgb(3, 0, 45), rgb(3, 0, 25));*/
+	background: rgb(0, 0, 15);
+    font-size: 16px;
+}
+
+.section1, .section3 {
+	background: rgba(0, 0, 15, 0.1);
+	backdrop-filter: blur(4px);
+	padding-bottom: 150px;
+	padding-top: 80px;
+}
+
+/* PARTICULAS */
+#particles-js {
+	height: 100vh; 
+	width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+/* Menu */
+.navbar {
+	background: rgba(0, 0, 15, 0.1);
+	backdrop-filter: blur(4px);
+	width: 100%;
+	position: fixed;
+	font-family: 'Sofia Sans', sans-serif;
+	top: 0;
+	padding: 0;
+	z-index: 999; /*para evitar problemas trabajando con un slaider*/
+}
+
+.navbar-toggler {
+background: #A9A9A9;
+}
+
+.navbar-toggler:hover {
+	background: #696969;
+}
+
+.navbar-toggler-icon {
+	font-size: 12px;
+}
+
+.navbar-brand {
+	color: #A9A9A9;
+	letter-spacing: 2px;
+	cursor: default;
+}
+
+.navbar-brand:hover {
+	color: #A9A9A9;
+}
+
+.nav-link {
+	text-align: center;
+	color: #696969;
+	letter-spacing: 2px;
+}
+
+.nav-link:hover {
+	color: #fff;
+}
+
+.navbar li{
+	display: inline-block;
+	padding: 0px 10px; /*para hacer hacia abajo y a la derecha los elementos a*/
+	margin: 0 10px; /*para hacer hacia abajo y a la derecha*/
+	transition: .5s ease all;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.navbar li:hover {
+	transform: translateY(6px); /*para que se hagan los elementos a hacia abajo*/
+	background-color: rgba(255, 255, 255, .2);
+}
+
+.navbar img {
+	padding: 0px 10px;
+}
+
+/* BOTON CV*/
+.btn-cv {
+	position: relative;
+	display: inline-block;
+	padding: 5px 10px;
+	color: #4b53bc;
+	letter-spacing: 3px;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Sofia Sans', sans-serif;
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0.2s;
+	border-radius: 6px;
+}
+
+.btn-cv:hover {
+	background: #4b53bc;
+	color: #fff;
+	box-shadow: 0 0 10px #4b53bc, 0 0 40px #4b53bc, 0 0 80px #4b53bc;
+	transition-delay: 1s;
+}
+
+.btn-cv span {
+	position: absolute;
+	display: block;
+}
+
+#span1 {
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg, transparent, #a945c7);
+}
+
+.btn-cv:hover #span1 {
+	left: 100%;
+	transition: 1s;
+}
+
+#span3 {
+	bottom: 0;
+	right: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg, transparent, #a945c7);
+}
+
+.btn-cv:hover #span3 {
+	right: 100%;
+	transition: 1s;
+}
+
+#span2 {
+	top: -100%;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg, transparent, #a945c7);
+}
+
+.btn-cv:hover #span2 {
+	top: 100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+
+#span4 {
+	bottom: 0;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent, #a945c7);
+}
+
+.btn-cv:hover #span4 {
+	bottom: 100%;
+	transition: 1s;
+	transition-delay: 0.75s;
+}
+
+/* Inicio */
+.section1 {
+	box-shadow: 0px 1px 10px rgba(255,255,255,0.2);
+	border-radius: 1em;
+}
+
+.presentacion {
+	margin: 0 auto;
+	padding-top: 30px;
+	letter-spacing: 2px;
+}
+
+.img-cv{
+    margin: 0 auto;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.section1 p {
+	font-family: 'Sofia Sans', sans-serif;
+	font-style: italic;
+	font-size: 20px;
+	color: #A9A9A9;
+	backdrop-filter: blur(4px);
+}
+
+article strong {
+	padding: 10px 0;
+	color: #4b53bc;
+	font-size: 48px;
+	font-family: 'Anton', sans-serif;
+}
+
+article h2 {
+	padding: 10px 0;
+	font-size: 25px;
+	font-family: 'Roboto Mono', monospace;
+	color: #696969;
+}
+
+.section1 img {
+	border-radius: 36% 64% 37% 63% / 63% 38% 62% 37%; 
+	height: 250px;
+	margin-bottom: 20px;
+	box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.2);
+}
+
+.section1 img:hover {
+	backdrop-filter: blur(5px);
+	cursor: pointer;
+	box-shadow: 5px 5px 20px rgba(255,255,255,.4);
+}
+
+/* Habilidades y subtitulo */
+.subtitulo{
+	background-color: rgba(0, 0, 15, 0.1);
+	backdrop-filter: blur(5px);
+	font-size: 28px;
+	font-family: 'Sofia Sans', sans-serif;
+	font-style: italic;
+	text-align: center;
+	color: #4b53bc;
+	opacity: 90%;
+	z-index: 2; 
+	text-transform: uppercase; 
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.subtitulo span {
+	background: rgba(0, 0, 15, 0.1);
+	backdrop-filter: blur(4px);
+	padding: 0 15px; 
+	border-radius: 10px;
+	box-shadow: 5px 5px 20px rgba(255,255,255,.4);
+}
+
+.section2 {
+	display: flex;
+	flex-flow: row wrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0, 0, 15, 0.1);
+	backdrop-filter: blur(4px);
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.habilidades {
+	width: 120px;
+    margin-bottom: 10px;
+	margin: 10px;
+	padding: 10px;
+	border: 2px solid rgba(255,255,255,.4);
+	border-radius: 99px;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #696969;;
+	font-family: 'Sofia Sans', sans-serif;
+}
+
+/* Proyectos */
+.section3 {
+	border-radius: 1em;
+	letter-spacing: 2px;
+	margin-bottom: 50px;
+}
+
+.carousel-inner {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.paginas {
+	background: rgba(0, 0, 15, 0.1);
+	width: 300px;
+	margin: 0 auto;
+	border-radius: 1em;
+	backdrop-filter: blur(10px);
+	box-shadow: 0px 1px 10px rgba(255,255,255,0.2);
+	cursor: default;
+	transition: all 400ms ease;
+}
+
+.paginas:hover {
+	box-shadow: 5px 5px 20px rgba(255,255,255,.4);
+	transform: translateY(-3%);/*para k se haga hacia arriba con el hover*/
+}
+
+.paginas img {
+	width: 100%;
+	height: 200px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.paginas .texto1 {
+	padding: 15px;
+	text-align: center;
+}
+
+.paginas .texto1 p {
+	font-family: 'Sofia Sans', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #A9A9A9;
+}
+
+.paginas .texto1 a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px;
+	margin-top: 10px;
+	color: #A9A9A9;
+	font-size: 18px;
+	font-family: 'Sofia Sans', sans-serif;
+	border: 1px solid #A9A9A9;
+	border-radius: 6px;
+	transition: all 400ms ease;
+}
+
+.paginas .texto1 a:hover {
+	background: rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 2555, 0.1);
+	color: #A9A9A9;
+}
+
+/* Footer */
+footer i {
+	padding-top: 40px;
+	font-size: 25px;
+}
+
+/* Msj Correo */
+.msj_footer {
+	display: flex;
+	justify-content: center;
+}
+
+#msj-correo {
+	padding-top: 18px;
+	font-size: 22px;
+}
+
+#btn-copy {
+	color: #000;
+	background-color: #fff;
+	border: 1px solid #fff;
+	margin: 5px;
+	cursor: pointer;
+}

@@ -1,0 +1,199 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/*--- MENU HEADER ---*/
+.menu {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-grow: 0;
+}
+
+.menu a, .btn, .icono-puntos {
+    margin: 10px;
+}
+
+header .menu a {
+    color: #3c4043;
+}
+
+.contenedor-icon {
+    border-radius: 2em;
+}
+
+.contenedor-icon:hover {
+    background-color: rgba(0, 0, 0, .1);
+    cursor: pointer;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    min-width: 96px;
+    margin-right: 8px;
+}
+
+.menu button a {
+    color: #fff;
+}
+
+.menu button a:hover {
+    text-decoration: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}
+
+/*--- LOGO DE GOOGLE (IMG) ---*/
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    flex-grow: 0;
+}
+
+/*--- BARRA DE BUSCAR ---*/
+.barra {
+    display: flex;
+    width: 45%;
+    height: 50px;
+    margin: 0 auto;
+    padding: 5px 8px 0 14px;
+    border-radius: 2em;
+    border: 1px solid rgba(0, 0, 0, .1);
+    margin-bottom: 20px;
+    flex-grow: 0;
+}
+
+.barra:hover {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .1);
+}
+
+.barra input[type=text] {
+    border: 2px solid #fff;
+    outline: none;
+}
+
+.lupa {
+    display: flex;
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.barra input {
+    width: 80%;
+    border: 1px solid transparent;
+    height: 38px;
+}
+
+.micro, .cam {
+    margin: 5px;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+/*--- BOTONES DE BUSCAR ---*/
+.botones-buscar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-grow: 0;
+}
+
+.botones-buscar button {
+    background-color: #f8f9fa;
+    min-width: 54px;
+    height: 36px;
+    margin: 11px 4px;
+}
+
+.botones-buscar button:hover {
+    background-color: #f8f9fa;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.botones-buscar p {
+    font-size: 14px;
+    color: #3c4043;
+}
+
+/*--- CONTENEDOR VACIO ---*/
+.contenedor-vacio {
+    flex-grow: 1;
+}
+
+
+/*--- FOOTER ---*/
+.mexico {
+    background-color: #f2f2f2;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    flex-grow: 0;
+}
+
+.info_google {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 0;
+}
+
+.info2 {
+    padding: 0 10px;
+}
+
+.block1 {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.block2 {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.avisos_google {
+    display: block;
+    padding: 15px;
+    font-size: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #70757a;
+}
+
+.avisos_google:hover {
+    text-decoration: underline;
+}
+
+/*--- Mediaqueries ---*/
+@media (max-width: 996px) {
+    .logo {
+        margin-top: 100px;
+    }
+    .barra {
+        width: 60%;
+    }
+    .botones-buscar {
+        margin-bottom: 150px;
+    }
+}

@@ -1,0 +1,130 @@
+body {
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    letter-spacing: 1px;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: auto auto auto auto; /*cada auto es una columna (podemos poner px %, auto es para darle tamaño igual a todas las col)*/
+    grid-template-rows: auto; /*cada auto es una fila (podemos poner px %, auto es para darle tamaño igual a todas las filas)*/
+    /*justify-content: space-evenly; /*podemos jugar con los valores para justificar el contenido*/
+    width: 100%;
+    padding: 10px;
+}
+
+.titulo {
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+
+.titulo h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.titulo span {
+    color: #778899;
+}
+
+.caja {
+    background-color: rgba(0, 0, 0, .2);
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    color: #dcdcdc;
+}
+
+.c1 {
+    border-top: 5px solid blue;
+}
+.c2 {
+    border-top: 5px solid #6495ED;
+}
+.c3 {
+    border-top: 5px solid #fc4a1a; 
+}
+.c4 {
+    border-top: 5px solid #ff0000;
+}
+
+.caja h1 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.caja p {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #778899;
+}
+
+.grid2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    padding: 10px;
+}
+
+.texto h2 {
+    color: #fff;
+    font-size: 22px;
+}
+
+.redes_likes {
+    background-color: rgba(0, 0, 0, .2);
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    color: #778899;
+}
+
+.abajo p {
+    color: #fff;
+    font-size: 25px;
+}
+
+.arriba {
+    margin-bottom: 20px;
+}
+
+/*--- Mediaqueries Tablet ---*/
+@media (min-width:750px) and (max-width: 900px) {
+    .caja h1 {
+        font-size: 40px;
+    }
+    .caja p {
+        font-size: 15px;
+    }
+}
+
+/*--- Mediaqueries Celular ---*/
+@media (min-width:350px) and (max-width: 500px) {
+    .grid-layout {
+        display: grid;
+        grid-template-columns: auto auto; /*cada auto es una columna (podemos poner px %, auto es para darle tamaño igual a todas las col)*/
+        grid-template-rows: auto; /*cada auto es una fila (podemos poner px %, auto es para darle tamaño igual a todas las filas)*/
+    }
+    .caja {
+        font-size: 12px;
+        margin: 10px;
+        width: 80%;
+    }
+    .caja h1 {
+        font-size: 40px;
+    }
+    .caja p {
+        font-size: 15px;
+    }
+
+    .grid2 {
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+}

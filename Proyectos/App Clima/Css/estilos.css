@@ -1,0 +1,205 @@
+body {
+    background-image: url(../Img/nubes.jpg);
+	background-position: center;
+	background-size: cover; 
+	background-attachment: fixed;
+}
+
+nav {
+    backdrop-filter: blur(25px);
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.navbar-brand {
+    color: #fff;
+    font-family: 'Climate Crisis', cursive;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.input-group {
+    margin: auto;
+    width: 50%;
+}
+
+.form-control, .btn {
+    border-radius: 1em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*--- Contenedor ---*/
+.contenedor_datos {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 2px;
+}
+
+/*--- Datos izq ---*/
+.datos_mx {
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, .7);
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, .5);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.datos_mx img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.datos_mx h2, p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.datos_mx svg {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    margin: 0 auto;
+}
+
+/*--- Datos der ---*/
+.datos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.datos_met {
+    backdrop-filter: blur(15px);
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, .5);
+    width: 170px;
+    height:150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, .7);
+}
+
+.datos_met p {
+    text-align: center;
+    font-size: 40px;
+}
+
+.datos_met span {
+    font-size: 15px;
+}
+
+.datos_met svg {
+    width: 25px;
+    height: 25px;
+}
+
+/*--- Datos Días ---*/
+.datos_dias {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.clima_dias {
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, .7);
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, .5);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 120px;
+    margin: 10px;
+}
+
+.clima_dias p {
+    font-size: 12px;
+}
+
+.clima_dias img {
+    display: flex;
+    margin: 0 auto;
+}
+
+/*--- Datos 3hrs / 24hrs---*/
+.datos_hrs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.clima_3hrs {
+    backdrop-filter: blur(15px);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgba(255, 255, 255, .7);
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, .5);
+    border-radius: 10px;
+    width: 80px;
+    margin: 10px;
+}
+
+.clima_3hrs p {
+    font-size: 10px;
+}
+
+.clima_3hrs img {
+    display: flex;
+    margin: 0 auto;
+}
+
+.prevision {
+    text-align: center;
+    font-size: 15px;
+    font-family: Montserrat;
+}
+
+/*--- Mediaqueries ---*/
+@media (max-width: 996px){
+    .input-group {
+        margin: auto;
+        width: 80%;
+    }
+    .datos_met {
+        backdrop-filter: blur(15px);
+        width: 130px;
+        height:150px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        margin: 10px;
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, .7);
+    }
+    .datos_met p {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .datos_met span {
+        font-size: 12px;
+    }
+}

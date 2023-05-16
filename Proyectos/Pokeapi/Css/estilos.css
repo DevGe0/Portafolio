@@ -1,0 +1,115 @@
+nav {
+    height: 70px;
+    background-color: #20B2AA;
+}
+
+nav img {
+    width: 100%;
+    height: 50px;
+}
+
+.imagen_pokemon {
+    background: #ADFF2F;
+    height: 478px;
+    display: flex;
+    justify-content: center; /* para justificar el contenido dentro del container*/
+    align-items: center; /* para centrar los elementos dentro del container si el container tiene una altura mayor*/
+}
+
+.input-group-text, .form-control, .btn {
+    margin-top: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+.informacion_pokemon {
+    border-radius: 1px;
+    background-color: #00FFFF;
+}
+
+.datos_pokemon {
+    background-color: white;
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    padding: 10px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.datos_pokemon table .negritas {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.imagen_pokemon img {
+    display: flex;
+    max-width: 70%;
+    max-height: 70%;
+    justify-content: center; /* para justificar el contenido dentro del container*/
+    align-items: center; /* para centrar los elementos dentro del container si el container tiene una altura mayor*/
+    align-content: center; /* para que haya un espacio entre el contenido o cajas*/
+}
+
+/*--- TOP POKEMONES ---*/
+.top-titulo {
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+.top_pokemones {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
+
+.card {
+    background-color: #ADFF2F;
+    box-shadow: 5px 5px 5px #00FFFF;
+    width: 30%;
+    height: 250px;
+    margin: 5px;
+    transition: all 400ms ease;
+}
+
+.card:hover {
+    transform: translateY(-3%);
+    cursor: pointer;
+}
+
+.card img {
+    max-width: 50%;
+    max-height: 50%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.card-text {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*--- Mediaqueries ---*/
+@media (max-width: 996px){
+    .card {
+        width: 30%;
+        height: 180px;
+        margin: 5px;
+        transition: all 400ms ease;
+        font-size: 10px;
+    }
+}

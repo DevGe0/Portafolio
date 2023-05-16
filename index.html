@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="Img/programador.png">
+    <!-- Iconos de fontawesome -->
+    <script src="https://kit.fontawesome.com/2fd447c697.js" crossorigin="anonymous"></script>
+    <!-- Fuentes de GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Mono&family=Sofia+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <title>Portafolio</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Css/estilos.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+    <div id="particles-js"></div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="Img/portafolio.png">Portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ir_inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ir_hb">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ir_proyects">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ir_contacto">Contacto</a>
+                    </li>
+                    <a class="btn-cv" download="Curriculum" href="CV 2023.pdf">
+                        <span id="span1"></span>
+                        <span id="span2"></span>
+                        <span id="span3"></span>
+                        <span id="span4"></span>
+                        Descargar CV
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- my-3 nos pone un margen arriba y abajo del eje y -->
+    <div class="container my-3">
+        <!-- animate__animated son animaciones css de Animate.css -->
+        <div class="section1 row align-items-center animate__animated animate__rubberBand" id="ir_inicio">
+            <article class="presentacion col-sm-12 col-md-6 col-lg-6 col-xl-6">
+			    <strong>Hola, Soy Geovanni Campuzano</strong>
+			    <h2 class="mb-4" id="typewriter"></h2>
+			    <p>Soy un joven de 24 años, apasionado por la tecnología, la programación, el diseño web, la ciberseguridad y todo lo que tenga relación con la innovación tecnológica.</p>
+		    </article>
+            <figure class="img-cv col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <img src="Img/photo-cv.png">
+                <p>Ingeniero en sistemas computacionales recien egresado de la Univerdad Cugs Cuauhtémoc en Octubre Del 2022.</p>
+            </figure>
+        </div>
+        <h2 class="subtitulo" id="ir_hb"><span>Habilidades</span></h2>  
+        <div class="section2 row aling-items-center col-sm-12 col-md-12 col-lg-12 col-xl-12 animate__animated animate__bounceInLeft">
+                <div class="habilidades">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" viewBox="0 0 384 512"><path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/></svg>
+                    </div>
+                    <p>HTML</p>      
+                </div>
+                <div class="habilidades">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" viewBox="0 0 384 512"><path d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"/></svg>
+                    <p>CSS</p>    
+                </div>
+                <div class="habilidades">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" viewBox="0 0 448 512"><path d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"/></svg>
+                    <p>JAVASCRIPT</p>    
+                </div>
+                <div class="habilidades">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" viewBox="0 0 576 512"><path d="M333.5,201.4c0-22.1-15.6-34.3-43-34.3h-50.4v71.2h42.5C315.4,238.2,333.5,225,333.5,201.4z M517,188.6 c-9.5-30.9-10.9-68.8-9.8-98.1c1.1-30.5-22.7-58.5-54.7-58.5H123.7c-32.1,0-55.8,28.1-54.7,58.5c1,29.3-0.3,67.2-9.8,98.1 c-9.6,31-25.7,50.6-52.2,53.1v28.5c26.4,2.5,42.6,22.1,52.2,53.1c9.5,30.9,10.9,68.8,9.8,98.1c-1.1,30.5,22.7,58.5,54.7,58.5h328.7 c32.1,0,55.8-28.1,54.7-58.5c-1-29.3,0.3-67.2,9.8-98.1c9.6-31,25.7-50.6,52.1-53.1v-28.5C542.7,239.2,526.5,219.6,517,188.6z M300.2,375.1h-97.9V136.8h97.4c43.3,0,71.7,23.4,71.7,59.4c0,25.3-19.1,47.9-43.5,51.8v1.3c33.2,3.6,55.5,26.6,55.5,58.3 C383.4,349.7,352.1,375.1,300.2,375.1z M290.2,266.4h-50.1v78.4h52.3c34.2,0,52.3-13.7,52.3-39.5 C344.7,279.6,326.1,266.4,290.2,266.4z"/></svg>
+                    <p>BOOTSTRAP</p>     
+                </div>
+                <div class="habilidades">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" viewBox="0 0 448 512"><path d="M100.59 334.24c48.57 3.31 58.95 2.11 58.95 11.94 0 20-65.55 20.06-65.55 1.52.01-5.09 3.29-9.4 6.6-13.46zm27.95-116.64c-32.29 0-33.75 44.47-.75 44.47 32.51 0 31.71-44.47.75-44.47zM448 80v352a48 48 0 0 1-48 48H48a48 48 0 0 1-48-48V80a48 48 0 0 1 48-48h352a48 48 0 0 1 48 48zm-227 69.31c0 14.49 8.38 22.88 22.86 22.88 14.74 0 23.13-8.39 23.13-22.88S258.62 127 243.88 127c-14.48 0-22.88 7.84-22.88 22.31zM199.18 195h-49.55c-25-6.55-81.56-4.85-81.56 46.75 0 18.8 9.4 32 21.85 38.11C74.23 294.23 66.8 301 66.8 310.6c0 6.87 2.79 13.22 11.18 16.76-8.9 8.4-14 14.48-14 25.92C64 373.35 81.53 385 127.52 385c44.22 0 69.87-16.51 69.87-45.73 0-36.67-28.23-35.32-94.77-39.38l8.38-13.43c17 4.74 74.19 6.23 74.19-42.43 0-11.69-4.83-19.82-9.4-25.67l23.38-1.78zm84.34 109.84l-13-1.78c-3.82-.51-4.07-1-4.07-5.09V192.52h-52.6l-2.79 20.57c15.75 5.55 17 4.86 17 10.17V298c0 5.62-.31 4.58-17 6.87v20.06h72.42zM384 315l-6.87-22.37c-40.93 15.37-37.85-12.41-37.85-16.73v-60.72h37.85v-25.41h-35.82c-2.87 0-2 2.52-2-38.63h-24.18c-2.79 27.7-11.68 38.88-34 41.42v22.62c20.47 0 19.82-.85 19.82 2.54v66.57c0 28.72 11.43 40.91 41.67 40.91 14.45 0 30.45-4.83 41.38-10.2z"/></svg>
+                    <p>GIT</p>      
+                </div>
+                <div class="habilidades">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" viewBox="0 0 448 512"><path d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4.1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3.1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z"/></svg>
+                    <p>PYTHON</p>     
+                </div>
+                <div class="habilidades">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-database" viewBox="0 0 16 16"><path d="M4.318 2.687C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4c0-.374.356-.875 1.318-1.313ZM13 5.698V7c0 .374-.356.875-1.318 1.313C10.766 8.729 9.464 9 8 9s-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777A4.92 4.92 0 0 0 13 5.698ZM14 4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16s3.022-.289 4.096-.777C13.125 14.755 14 14.007 14 13V4Zm-1 4.698V10c0 .374-.356.875-1.318 1.313C10.766 11.729 9.464 12 8 12s-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10s3.022-.289 4.096-.777A4.92 4.92 0 0 0 13 8.698Zm0 3V13c0 .374-.356.875-1.318 1.313C10.766 14.729 9.464 15 8 15s-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13s3.022-.289 4.096-.777c.324-.147.633-.323.904-.525Z"/></svg>
+                    <p>SQL</p>     
+                </div>
+                <div class="habilidades">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" viewBox="0 0 384 512"><path d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM155.7 250.2L192 302.1l36.3-51.9c7.6-10.9 22.6-13.5 33.4-5.9s13.5 22.6 5.9 33.4L221.3 344l46.4 66.2c7.6 10.9 5 25.8-5.9 33.4s-25.8 5-33.4-5.9L192 385.8l-36.3 51.9c-7.6 10.9-22.6 13.5-33.4 5.9s-13.5-22.6-5.9-33.4L162.7 344l-46.4-66.2c-7.6-10.9-5-25.8 5.9-33.4s25.8-5 33.4 5.9z"/></svg>
+                    <p>EXCEL</p>     
+                </div>
+                <div class="habilidades">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" viewBox="0 0 448 512"><path d="M220.8 123.3c1 .5 1.8 1.7 3 1.7 1.1 0 2.8-.4 2.9-1.5.2-1.4-1.9-2.3-3.2-2.9-1.7-.7-3.9-1-5.5-.1-.4.2-.8.7-.6 1.1.3 1.3 2.3 1.1 3.4 1.7zm-21.9 1.7c1.2 0 2-1.2 3-1.7 1.1-.6 3.1-.4 3.5-1.6.2-.4-.2-.9-.6-1.1-1.6-.9-3.8-.6-5.5.1-1.3.6-3.4 1.5-3.2 2.9.1 1 1.8 1.5 2.8 1.4zM420 403.8c-3.6-4-5.3-11.6-7.2-19.7-1.8-8.1-3.9-16.8-10.5-22.4-1.3-1.1-2.6-2.1-4-2.9-1.3-.8-2.7-1.5-4.1-2 9.2-27.3 5.6-54.5-3.7-79.1-11.4-30.1-31.3-56.4-46.5-74.4-17.1-21.5-33.7-41.9-33.4-72C311.1 85.4 315.7.1 234.8 0 132.4-.2 158 103.4 156.9 135.2c-1.7 23.4-6.4 41.8-22.5 64.7-18.9 22.5-45.5 58.8-58.1 96.7-6 17.9-8.8 36.1-6.2 53.3-6.5 5.8-11.4 14.7-16.6 20.2-4.2 4.3-10.3 5.9-17 8.3s-14 6-18.5 14.5c-2.1 3.9-2.8 8.1-2.8 12.4 0 3.9.6 7.9 1.2 11.8 1.2 8.1 2.5 15.7.8 20.8-5.2 14.4-5.9 24.4-2.2 31.7 3.8 7.3 11.4 10.5 20.1 12.3 17.3 3.6 40.8 2.7 59.3 12.5 19.8 10.4 39.9 14.1 55.9 10.4 11.6-2.6 21.1-9.6 25.9-20.2 12.5-.1 26.3-5.4 48.3-6.6 14.9-1.2 33.6 5.3 55.1 4.1.6 2.3 1.4 4.6 2.5 6.7v.1c8.3 16.7 23.8 24.3 40.3 23 16.6-1.3 34.1-11 48.3-27.9 13.6-16.4 36-23.2 50.9-32.2 7.4-4.5 13.4-10.1 13.9-18.3.4-8.2-4.4-17.3-15.5-29.7zM223.7 87.3c9.8-22.2 34.2-21.8 44-.4 6.5 14.2 3.6 30.9-4.3 40.4-1.6-.8-5.9-2.6-12.6-4.9 1.1-1.2 3.1-2.7 3.9-4.6 4.8-11.8-.2-27-9.1-27.3-7.3-.5-13.9 10.8-11.8 23-4.1-2-9.4-3.5-13-4.4-1-6.9-.3-14.6 2.9-21.8zM183 75.8c10.1 0 20.8 14.2 19.1 33.5-3.5 1-7.1 2.5-10.2 4.6 1.2-8.9-3.3-20.1-9.6-19.6-8.4.7-9.8 21.2-1.8 28.1 1 .8 1.9-.2-5.9 5.5-15.6-14.6-10.5-52.1 8.4-52.1zm-13.6 60.7c6.2-4.6 13.6-10 14.1-10.5 4.7-4.4 13.5-14.2 27.9-14.2 7.1 0 15.6 2.3 25.9 8.9 6.3 4.1 11.3 4.4 22.6 9.3 8.4 3.5 13.7 9.7 10.5 18.2-2.6 7.1-11 14.4-22.7 18.1-11.1 3.6-19.8 16-38.2 14.9-3.9-.2-7-1-9.6-2.1-8-3.5-12.2-10.4-20-15-8.6-4.8-13.2-10.4-14.7-15.3-1.4-4.9 0-9 4.2-12.3zm3.3 334c-2.7 35.1-43.9 34.4-75.3 18-29.9-15.8-68.6-6.5-76.5-21.9-2.4-4.7-2.4-12.7 2.6-26.4v-.2c2.4-7.6.6-16-.6-23.9-1.2-7.8-1.8-15 .9-20 3.5-6.7 8.5-9.1 14.8-11.3 10.3-3.7 11.8-3.4 19.6-9.9 5.5-5.7 9.5-12.9 14.3-18 5.1-5.5 10-8.1 17.7-6.9 8.1 1.2 15.1 6.8 21.9 16l19.6 35.6c9.5 19.9 43.1 48.4 41 68.9zm-1.4-25.9c-4.1-6.6-9.6-13.6-14.4-19.6 7.1 0 14.2-2.2 16.7-8.9 2.3-6.2 0-14.9-7.4-24.9-13.5-18.2-38.3-32.5-38.3-32.5-13.5-8.4-21.1-18.7-24.6-29.9s-3-23.3-.3-35.2c5.2-22.9 18.6-45.2 27.2-59.2 2.3-1.7.8 3.2-8.7 20.8-8.5 16.1-24.4 53.3-2.6 82.4.6-20.7 5.5-41.8 13.8-61.5 12-27.4 37.3-74.9 39.3-112.7 1.1.8 4.6 3.2 6.2 4.1 4.6 2.7 8.1 6.7 12.6 10.3 12.4 10 28.5 9.2 42.4 1.2 6.2-3.5 11.2-7.5 15.9-9 9.9-3.1 17.8-8.6 22.3-15 7.7 30.4 25.7 74.3 37.2 95.7 6.1 11.4 18.3 35.5 23.6 64.6 3.3-.1 7 .4 10.9 1.4 13.8-35.7-11.7-74.2-23.3-84.9-4.7-4.6-4.9-6.6-2.6-6.5 12.6 11.2 29.2 33.7 35.2 59 2.8 11.6 3.3 23.7.4 35.7 16.4 6.8 35.9 17.9 30.7 34.8-2.2-.1-3.2 0-4.2 0 3.2-10.1-3.9-17.6-22.8-26.1-19.6-8.6-36-8.6-38.3 12.5-12.1 4.2-18.3 14.7-21.4 27.3-2.8 11.2-3.6 24.7-4.4 39.9-.5 7.7-3.6 18-6.8 29-32.1 22.9-76.7 32.9-114.3 7.2zm257.4-11.5c-.9 16.8-41.2 19.9-63.2 46.5-13.2 15.7-29.4 24.4-43.6 25.5s-26.5-4.8-33.7-19.3c-4.7-11.1-2.4-23.1 1.1-36.3 3.7-14.2 9.2-28.8 9.9-40.6.8-15.2 1.7-28.5 4.2-38.7 2.6-10.3 6.6-17.2 13.7-21.1.3-.2.7-.3 1-.5.8 13.2 7.3 26.6 18.8 29.5 12.6 3.3 30.7-7.5 38.4-16.3 9-.3 15.7-.9 22.6 5.1 9.9 8.5 7.1 30.3 17.1 41.6 10.6 11.6 14 19.5 13.7 24.6zM173.3 148.7c2 1.9 4.7 4.5 8 7.1 6.6 5.2 15.8 10.6 27.3 10.6 11.6 0 22.5-5.9 31.8-10.8 4.9-2.6 10.9-7 14.8-10.4s5.9-6.3 3.1-6.6-2.6 2.6-6 5.1c-4.4 3.2-9.7 7.4-13.9 9.8-7.4 4.2-19.5 10.2-29.9 10.2s-18.7-4.8-24.9-9.7c-3.1-2.5-5.7-5-7.7-6.9-1.5-1.4-1.9-4.6-4.3-4.9-1.4-.1-1.8 3.7 1.7 6.5z"/></svg>
+                    <p>LINUX</p>    
+                </div>
+                <div class="habilidades">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" viewBox="0 0 448 512"><path d="M0 93.7l183.6-25.3v177.4H0V93.7zm0 324.6l183.6 25.3V268.4H0v149.9zm203.8 28L448 480V268.4H203.8v177.9zm0-380.6v180.1H448V32L203.8 65.7z"/></svg>
+                    <p>WINDOWS</p>     
+                </div>
+        </div>
+        
+        <div class="section3 row animate__animated animate__bounceInRight" id="ir_proyects">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <h2 class="subtitulo"><span>Proyectos</span></h2>
+                    <div class="carousel-item active">
+                        <div class="paginas col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                            <figure>
+                                <img src="Img/fondoClima.jpg">
+                            </figure>
+                            <div class="texto1">
+                            <p>App del clima con la api de OpenWeather</p>
+                            <a target="_blank" href="Proyectos/App Clima/index.html">Ir al sitio</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                        <div class="paginas col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                            <figure>
+                                <img src="Img/pokemon.jpg">
+                            </figure>
+                            <div class="texto1">
+                            <p>PokeApp con la Api de Pokemon</p>
+                            <a target="_blank" href="Proyectos/Pokeapi/index.html">Ir al sitio</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                        <div class="paginas col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                            <figure>
+                                <img src="Img/logo-crud.jpg">
+                            </figure>
+                            <div class="texto1">
+                            <p>CRUD Local con Javascript</p>
+                            <a target="_blank" href="Proyectos/CRUD/index.html">Ir al sitio</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                        <div class="paginas col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                            <figure>
+                                <img src="Img/image.jpg">
+                            </figure>
+                            <div class="texto1">
+                            <p>Calculadora básica de salarios </p>
+                            <a target="_blank" href="Proyectos/App Calcula Salarios/index.html">Ir al sitio</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                        <div class="paginas col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                            <figure>
+                                <img src="Img/Dashboard.jpg">
+                            </figure>
+                            <div class="texto1">
+                            <p>Maqueta Dashboard</p>
+                            <a target="_blank" href="Proyectos/Dashboard con grid y menu lateral/index.html">Ir al sitio</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                        <div class="paginas col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                            <figure>
+                                <img src="Img/redes.jpg">
+                            </figure>
+                            <div class="texto1">
+                            <p>Dashboard Redes Sociales</p>
+                            <a target="_blank" href="Proyectos/Dashboard con Grid/index.html">Ir al sitio</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                        <div class="paginas col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                        <figure>
+                            <img src="Img/brochas.jpg">
+                        </figure>
+                        <div class="texto1">
+                        <p>Página web de ventas de maquillaje y articulos de belleza para mujeres.</p>
+                        <a target="_blank" href="Proyectos/Diamond/index.html">Ir al sitio</a>
+                        </div>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                        <div class="paginas col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                            <figure>
+                                <img src="Img/portada.jpg">
+                            </figure>
+                            <div class="texto1">
+                            <p>Página Web Informativa</p>
+                            <a target="_blank" href="Proyectos/CICAP/index.html">Ir al sitio</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                        <div class="paginas col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                            <figure>
+                                <img src="Img/google-fondo.jpg">
+                            </figure>
+                            <div class="texto1">
+                            <p>Clon de Google</p>
+                            <a target="_blank" href="Proyectos/Google clone/index.html">Ir al sitio</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                        <div class="paginas col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                            <figure>
+                                <img src="Img/pagenotfound.jpg">
+                            </figure>
+                            <div class="texto1">
+                            <p>Página de Error 404</p>
+                            <a target="_blank" href="Proyectos/Pagina error 404/index.html">Ir al sitio</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                        <div class="paginas col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                            <figure>
+                                <img src="Img/plan.jpg">
+                            </figure>
+                            <div class="texto1">
+                            <p>Precios de suscripciones</p>
+                            <a target="_blank" href="Proyectos/Precios de suscripciones/index.html">Ir al sitio</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                    <div class="paginas col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                        <figure>
+                            <img src="Img/form.jpg">
+                        </figure>
+                        <div class="texto1">
+                        <p>Formulario Local de Datos Personales</p>
+                        <a target="_blank" href="Proyectos/Formulario con js/index.html">Ir al sitio</a>
+                        </div>
+                    </div> 
+                    </div>
+                    <div class="carousel-item">
+                    <div class="paginas col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                        <figure>
+                            <img src="Img/fondo-form.jpg">
+                        </figure>
+                        <div class="texto1">
+                        <p>Formulario Local de Registro</p>
+                        <a target="_blank" href="Proyectos/Formulario FB/index.html">Ir al sitio</a>
+                        </div>
+                    </div> 
+                    </div>
+                    <div class="carousel-item">
+                    <div class="paginas col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                        <figure>
+                            <img src="Img/ciudad.jpg">
+                        </figure>
+                        <div class="texto1">
+                        <p>Galeria de fotos.</p>
+                        <a target="_blank" href="Proyectos/Galeria/index.html">Ir al sitio</a>
+                        </div>
+                    </div> 
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <!-- py-3 = padding interno en el eje y my-4 = margen interno en el eje y -->
+            <footer id="ir_contacto">
+                <ul class="nav justify-content-center border-top pb-3 mb-3">
+                    <!-- con px-2 = padding en el eje x y text-muted para quitar el hipervinculo-->
+                    <li class="nav-item"><a href="https://www.linkedin.com/in/geocg" target="_blank" class="nav-link px-2 text-muted"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li class="nav-item"><a href="#!" id="correo" class="nav-link px-2 text-muted"><i class="fa-solid fa-envelope"></i></a></li>
+                    <li class="nav-item"><a href="https://api.whatsapp.com/send?phone=5551585990" target="_blank" class="nav-link px-2 text-muted"><i class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+    <!-- Bootstrap Bundle with Popper-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <!-- Custom JS -->
+    <script src="Js/main.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Particulas animadas -->
+    <script src="Js/particles.min.js"></script>
+    <script src="Js/particulas-activas.js"></script>
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
